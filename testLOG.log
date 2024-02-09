@@ -1,0 +1,34 @@
+INFO: New data from on sock 5, readret_bytes=108, [GET / HTTP/1.1
+Host: localhost
+Connection: close 
+
+GET / HTTP/.1
+Host: localhost
+Connection: close
+
+]
+INFO: GET [/], [head:0]
+INFO: GET request: / on 5
+INFO: filename=[index.html]
+INFO: fullpath1=[../static_site/index.html]
+INFO: Reading the file [../static_site/index.html] of size [802]
+INFO: Sending response to client 5 with status 200 with content_length sz=[802], connnection to be [close]
+INFO: Connection to be [close]
+INFO: Closing connection to client 5.
+INFO: New data from on sock 5, readret_bytes=113, [GET / HTTP/1.1
+Host: localhost
+Connection: keep-alive 
+
+GET / HTTP/.1
+Host: localhost
+Connection: close
+
+]
+INFO: GET [/], [head:0]
+INFO: GET request: / on 5
+INFO: filename=[index.html]
+INFO: fullpath1=[../static_site/index.html]
+INFO: Reading the file [../static_site/index.html] of size [802]
+INFO: Sending response to client 5 with status 200 with content_length sz=[802], connnection to be [keep-alive]
+INFO: Connection to be [keep-alive]
+INFO: Sending response to client 5 with status 400 with content_length sz=[24], connnection to be [close]

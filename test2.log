@@ -1,0 +1,265 @@
+----- Echo Server -----
+DEBUG: ----- Echo Server -----
+DEBUG: Listening on port: 8500
+DEBUG: Listening on port: 8500
+----- Echo Server -----
+DEBUG: ----- Echo Server -----
+DEBUG: Listening on port: 8500
+DEBUG: Created a new state for client 5.
+DEBUG: New data from on sock 5, readret_bytes=82.
+DEBUG: Sending response to client 5 with status 200.
+DEBUG: Sending 172 bytes to client 5.
+----- Echo Server -----
+DEBUG: ----- Echo Server -----
+DEBUG: Listening on port: 8500
+----- Echo Server -----
+DEBUG: ----- Echo Server -----
+DEBUG: Listening on port: 8500
+DEBUG: Created a new state for client 5.
+DEBUG: New data from on sock 5, readret_bytes=82.
+DEBUG: Method: [HEAD]
+DEBUG: URI: [/]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [localhost:8500]
+DEBUG: Connection Close: [KEEP_ALIVE]
+DEBUG: Data: [(null)]
+DEBUG: Sending response to client 5 with status 200.
+DEBUG: Sending 172 bytes to client 5.
+----- Echo Server -----
+DEBUG: ----- Echo Server -----
+DEBUG: Listening on port: 8500
+DEBUG: Created a new state for client 5.
+DEBUG: New data from on sock 5, readret_bytes=82.
+DEBUG: Method: [HEAD]
+DEBUG: URI: [/]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [localhost:8500]
+DEBUG: Connection Close: [KEEP_ALIVE]
+DEBUG: Data: [(null)]
+DEBUG: Sending response to client 5 with status 200.
+DEBUG: Sending 172 bytes to client 5.
+DEBUG: New data from on sock 5, readret_bytes=81.
+DEBUG: Method: [GET]
+DEBUG: URI: [/]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [localhost:8500]
+DEBUG: Connection Close: [KEEP_ALIVE]
+DEBUG: Data: [(null)]
+DEBUG: Sending response to client 5 with status 200.
+DEBUG: Sending 293 bytes to client 5.
+DEBUG: 
+----- Echo Server -----
+DEBUG: Listening on port: 8802
+DEBUG: New data from on sock 5, readret_bytes=0.
+DEBUG: Created a new state for client 5.
+DEBUG: New data from on sock 5, readret_bytes=81.
+DEBUG: Parsing request from client 5.
+DEBUG: going to call parse_buffer 5.
+DEBUG: Parsing request: GET / HTTP/1.1
+Host: localhost:8802
+User-Agent: insomnia/8.6.0
+Accept: */*
+
+
+DEBUG: Method: [GET]
+DEBUG: URI: [/]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [localhost:8802]
+DEBUG: Connection Close: [KEEP_ALIVE]
+DEBUG: Data: [(null)]
+DEBUG: GET request: / on 5
+DEBUG: Reading the file [www/index.html]
+DEBUG: Sending response to client 5 with status 200.
+DEBUG: Sending 293 bytes to client 5.
+DEBUG: 
+----- Echo Server -----
+DEBUG: Listening on port: 8802
+DEBUG: Created a new state for client 5.
+DEBUG: New data from on sock 5, readret_bytes=81.
+DEBUG: Parsing request from client 5.
+DEBUG: going to call parse_buffer 5.
+DEBUG: Parsing request: [GET / HTTP/1.1
+Host: localhost:8802
+User-Agent: insomnia/8.6.0
+Accept: */*
+
+]
+DEBUG: Method: [GET]
+DEBUG: URI: [/]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [localhost:8802]
+DEBUG: Connection Close: [KEEP_ALIVE]
+DEBUG: Data: [(null)]
+DEBUG: GET request: / on 5
+DEBUG: Reading the file [www/index.html]
+DEBUG: Sending response to client 5 with status 200.
+DEBUG: Sending 293 bytes to client 5.
+DEBUG: 
+----- Echo Server -----
+DEBUG: Listening on port: 8802
+DEBUG: Created a new state for client 5.
+DEBUG: New data from on sock 5, readret_bytes=81.
+DEBUG: Parsing request from client 5.
+DEBUG: going to call parse_buffer 5.
+DEBUG: parse called with request pointing to: 0x16f1e8e24
+DEBUG: Parsing request first 100 chars: [GET / HTTP/1.1
+Host: localhost:8802
+User-Agent: insomnia/8.6.0
+Accept: */*
+
+]
+DEBUG: Parsing request: [GET / HTTP/1.1
+Host: localhost:8802
+User-Agent: insomnia/8.6.0
+Accept: */*
+
+]
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: Method: [GET]
+DEBUG: URI: [/]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [localhost:8802]
+DEBUG: Connection Close: [KEEP_ALIVE]
+DEBUG: Data: [(null)]
+DEBUG: GET request: / on 5
+DEBUG: Reading the file [www/index.html]
+DEBUG: Sending response to client 5 with status 200.
+DEBUG: Sending 293 bytes to client 5.
+DEBUG: 
+----- Echo Server -----
+DEBUG: Listening on port: 8802
+DEBUG: Created a new state for client 5.
+DEBUG: New data from on sock 5, readret_bytes=81.
+DEBUG: Parsing request from client 5.
+DEBUG: Parsing request from client 5.
+DEBUG: going to call parse_buffer 5.
+DEBUG: parse_buffer called with buf pointing to: 0x16d0a4e24
+DEBUG: Parsing buffer first 100 chars: [GET / HTTP/1.1
+Host: localhost:8802
+User-Agent: insomnia/8.6.0
+Accept: */*
+
+]
+DEBUG: printing first 324 line 0x16d0a4e24
+DEBUG: parse called with request pointing to: 0x16d0a4e24
+DEBUG: Parsing request first 100 chars: [GET / HTTP/1.1
+Host: localhost:8802
+User-Agent: insomnia/8.6.0
+Accept: */*
+
+]
+DEBUG: Parsing request: [GET / HTTP/1.1
+Host: localhost:8802
+User-Agent: insomnia/8.6.0
+Accept: */*
+
+]
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: Method: [GET]
+DEBUG: URI: [/]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [localhost:8802]
+DEBUG: Connection Close: [KEEP_ALIVE]
+DEBUG: Data: [(null)]
+DEBUG: GET request: / on 5
+DEBUG: Reading the file [www/index.html]
+DEBUG: Sending response to client 5 with status 200.
+DEBUG: Sending 293 bytes to client 5.
+DEBUG: Created a new state for client 5.
+DEBUG: New data from on sock 5, readret_bytes=0.
+DEBUG: Created a new state for client 5.
+DEBUG: New data from on sock 5, readret_bytes=197.
+DEBUG: Method: [GET]
+DEBUG: URI: [/]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [172.20.103.118:8500]
+DEBUG: Connection Close: [KEEP_ALIVE]
+DEBUG: Data: [(null)]
+DEBUG: Sending response to client 5 with status 200.
+DEBUG: Sending 293 bytes to client 5.
+DEBUG: Created a new state for client 6.
+DEBUG: New data from on sock 6, readret_bytes=252.
+DEBUG: Method: [GET]
+DEBUG: URI: [/v1/agent/self]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [172.20.103.118:8500]
+DEBUG: Connection Close: [CLOSE]
+DEBUG: Data: [(null)]
+DEBUG: Sending response to client 6 with status 404.
+DEBUG: Sending 186 bytes to client 6.
+DEBUG: New data from on sock 6, readret_bytes=0.
+DEBUG: Created a new state for client 6.
+DEBUG: New data from on sock 6, readret_bytes=235.
+DEBUG: Method: [GET]
+DEBUG: URI: [/server-info]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [172.20.103.118:8500]
+DEBUG: Connection Close: [CLOSE]
+DEBUG: Data: [(null)]
+DEBUG: Sending response to client 6 with status 404.
+DEBUG: Sending 186 bytes to client 6.
+DEBUG: New data from on sock 5, readret_bytes=0.
+DEBUG: New data from on sock 6, readret_bytes=0.
+DEBUG: Created a new state for client 5.
+DEBUG: New data from on sock 5, readret_bytes=216.
+DEBUG: Method: [GET]
+DEBUG: URI: [/]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [172.20.103.118:8500]
+DEBUG: Connection Close: [CLOSE]
+DEBUG: Data: [(null)]
+DEBUG: Sending response to client 5 with status 200.
+DEBUG: Sending 288 bytes to client 5.
+DEBUG: Created a new state for client 6.
+DEBUG: New data from on sock 6, readret_bytes=250.
+DEBUG: Method: [GET]
+DEBUG: URI: [/favicon.ico]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [172.20.103.118:8500]
+DEBUG: Connection Close: [CLOSE]
+DEBUG: Data: [(null)]
+DEBUG: Sending response to client 6 with status 404.
+DEBUG: Sending 186 bytes to client 6.
+DEBUG: New data from on sock 6, readret_bytes=0.
+DEBUG: New data from on sock 5, readret_bytes=0.
+DEBUG: Created a new state for client 5.
+DEBUG: New data from on sock 5, readret_bytes=81.
+DEBUG: Method: [GET]
+DEBUG: URI: [/]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [localhost:8500]
+DEBUG: Connection Close: [KEEP_ALIVE]
+DEBUG: Data: [(null)]
+DEBUG: Sending response to client 5 with status 200.
+DEBUG: Sending 293 bytes to client 5.
+DEBUG: New data from on sock 5, readret_bytes=81.
+DEBUG: Method: [GET]
+DEBUG: URI: [/]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [localhost:8500]
+DEBUG: Connection Close: [KEEP_ALIVE]
+DEBUG: Data: [(null)]
+DEBUG: Sending response to client 5 with status 200.
+DEBUG: Sending 293 bytes to client 5.
+DEBUG: New data from on sock 5, readret_bytes=91.
+DEBUG: Method: [GET]
+DEBUG: URI: [/index.html]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [localhost:8500]
+DEBUG: Connection Close: [KEEP_ALIVE]
+DEBUG: Data: [(null)]
+DEBUG: Sending response to client 5 with status 200.
+DEBUG: Sending 293 bytes to client 5.
+DEBUG: New data from on sock 5, readret_bytes=91.
+DEBUG: Method: [GET]
+DEBUG: URI: [/index.html]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [localhost:8500]
+DEBUG: Connection Close: [KEEP_ALIVE]
+DEBUG: Data: [(null)]
+DEBUG: Sending response to client 5 with status 200.
+DEBUG: Sending 297 bytes to client 5.

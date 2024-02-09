@@ -1,0 +1,49 @@
+################################################################################
+# Makefile                                                                     #
+#                                                                              #
+# Description: This file contains the make rules for Recitation 1.             #
+#                                                                              #
+# Authors: Athula Balachandran <abalacha@cs.cmu.edu>,                          #
+#          Wolf Richter <wolf@cs.cmu.edu>                                      #
+#                                                                              #
+################################################################################
+
+default: echo_server
+
+echo_server:
+	gcc echo_server.c -o lisod -Wall -Werror
+
+echo_client:
+	@gcc echo_client.c -o echo_client -Wall -Werror
+
+clean:
+	@rm lisod
+
+sanitycheck:
+	#make clean
+	make echo_server
+	@echo "Starting lisod server in background"
+	./lisod 9000 1 . . . . . . &
+	sleep 5
+	@echo "One client"
+	python3 cp1_checker.py localhost 9000 4 1 1024 1
+	@echo "10 clients"
+	python3 cp1_checker.py localhost 9000 4 1 1024 10
+	@echo "1020 clients"
+	python3 cp1_checker.py localhost 9000 4 1 1024 1020
+
+test:
+	make clean
+	make echo_server
+	@echo "Starting lisod server in background"
+	./lisod 9000 1 . . . . . . &
+	sleep 5
+	@jobs
+	@echo "Make sure server is running on port 9000"
+	./test.sh
+
+docker_test:
+	@echo "Building docker image..."
+	docker build --build-arg CACHEBUST=$(date +%s) -t useitkal_tester .
+	docker run -it useitkal_tester /bin/bash -c "make test"
+

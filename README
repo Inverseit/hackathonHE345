@@ -1,0 +1,87 @@
+# CP1 README
+
+This file serves as a README and documentation for CP1 submission by useitkal.
+
+## Authors
+
+- Ulan Seitkaliyev <useitkal@cs.cmu.edu>
+- Athula Balachandran <abalacha@cs.cmu.edu>
+- Wolf Richter <wolf@cs.cmu.edu>
+
+## Table of Contents
+
+- [Description of Files](#description-of-files)
+- [How to Run](#how-to-run)
+
+## Description of Files
+
+Here is a listing of all files associated with CP1 and their purpose:
+
+- `README` - Current document
+- `echo_client.c` - Simple echo network client
+- `echo_server.c` - Simple echo network server
+- `test.sh` - Test script for CP1
+- `Makefile` - Contains rules for make
+- `cp1_checker.py` - Python test script for CP1
+- `Dockerfile` - Dockerfile for CP1 to isolate the environment
+
+## How to Run
+
+To build and execute the echo code, follow these steps:
+
+```bash
+make
+make echo_client
+./lisod 9000 1 . . . . . .
+./echo_client localhost 9000
+```
+
+This should allow you to input characters on stdin which will be sent to the
+echo server. Any input characters to stdin will be flushed to the server on return, and any bytes
+received from the server will appear on stdout.
+
+In addition, a telnet client may also be used in a similar fashion for
+communicating with the server:
+
+```bash
+make
+./lisod 9000 1 . . . . . .
+telnet localhost 9000
+```
+
+The test Python script takes a series of arguments and can be run as:
+
+```bash
+make
+./lisod 9000 1 . . . . . .
+./cp1_checker 127.0.0.1 9000 1000 10 2048 500
+```
+
+with arguments as such:
+
+                    <ip> <port> <# trials> <# writes and reads per trial> \
+                    <max # bytes to write at a time> <# connections> 
+
+To test the server, run the test script that runs it through a series of
+edge and normal cases use:
+
+```bash
+make
+./test.sh
+```
+
+If the environment is not set up, run the following command:
+
+```bash
+make docker_test
+```
+
+This will build the docker image and run the test script inside the container.
+
+Its output is the following:
+    ...
+    Test: 1 client(s), 2 requests per client, files of size 2048 (bytes)
+    Done!
+    Done!
+    Success!
+    ...

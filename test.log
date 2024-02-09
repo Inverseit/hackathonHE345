@@ -1,0 +1,430 @@
+DEBUG: 
+----- Echo Server -----
+DEBUG: Listening on port: 8500
+DEBUG: 
+----- Echo Server -----
+DEBUG: Listening on port: 8500
+DEBUG: 
+----- Echo Server -----
+DEBUG: Listening on port: 8500
+DEBUG: Created a new state for client 5.
+DEBUG: New data from on sock 5, readret_bytes=91.
+DEBUG: Parsing request from client 5.
+DEBUG: Parsing request from client 5.
+DEBUG: going to call parse_buffer 5.
+DEBUG: parse_buffer called with buf pointing to: 0x16d8cce24
+DEBUG: Parsing buffer first 100 chars: [GET /index.html HTTP/1.1
+Host: localhost:8500
+User-Agent: insomnia/8.6.0
+Accept: */*
+
+]
+DEBUG: prefix is at: 0x0
+DEBUG: printing first 324 line 0x16d8cce24
+DEBUG: parse called with request pointing to: 0x16d8cce24
+DEBUG: Parsing request first 100 chars: [GET /index.html HTTP/1.1
+Host: localhost:8500
+User-Agent: insomnia/8.6.0
+Accept: */*
+
+]
+DEBUG: Parsing request: [GET /index.html HTTP/1.1
+Host: localhost:8500
+User-Agent: insomnia/8.6.0
+Accept: */*
+
+]
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: Method: [GET]
+DEBUG: URI: [/index.html]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [localhost:8500]
+DEBUG: Connection Close: [KEEP_ALIVE]
+DEBUG: Data: [(null)]
+DEBUG: GET request: /index.html on 5
+DEBUG: Reading the file [static_site/index.html]
+DEBUG: Sending response to client 5 with status 200.
+DEBUG: Sending 973 bytes to client 5.
+DEBUG: Created a new state for client 6.
+DEBUG: Created a new state for client 7.
+DEBUG: New data from on sock 6, readret_bytes=679.
+DEBUG: Parsing request from client 6.
+DEBUG: Parsing request from client 6.
+DEBUG: going to call parse_buffer 6.
+DEBUG: parse_buffer called with buf pointing to: 0x16d8cce24
+DEBUG: Parsing buffer first 100 chars: [GET / HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chrom]
+DEBUG: prefix is at: 0x0
+DEBUG: printing first 324 line 0x16d8cce24
+DEBUG: parse called with request pointing to: 0x16d8cce24
+DEBUG: Parsing request first 100 chars: [GET / HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chrom]
+DEBUG: Parsing request: [GET / HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-US;q=0.9,ru;q=0.8,kk;q=0.7
+
+]
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: Method: [GET]
+DEBUG: URI: [/]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [localhost:8500]
+DEBUG: Connection Close: [KEEP_ALIVE]
+DEBUG: Data: [(null)]
+DEBUG: GET request: / on 6
+DEBUG: Reading the file [static_site/index.html]
+DEBUG: Sending response to client 6 with status 200.
+DEBUG: Sending 973 bytes to client 6.
+DEBUG: New data from on sock 6, readret_bytes=557.
+DEBUG: Parsing request from client 6.
+DEBUG: Parsing request from client 6.
+DEBUG: going to call parse_buffer 6.
+DEBUG: parse_buffer called with buf pointing to: 0x16d8cce24
+DEBUG: Parsing buffer first 100 chars: [GET /style.css HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8]
+DEBUG: prefix is at: 0x0
+DEBUG: printing first 324 line 0x16d8cce24
+DEBUG: parse called with request pointing to: 0x16d8cce24
+DEBUG: Parsing request first 100 chars: [GET /style.css HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8]
+DEBUG: Parsing request: [GET /style.css HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+sec-ch-ua-platform: "macOS"
+Accept: text/css,*/*;q=0.1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: http://localhost:8500/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-US;q=0.9,ru;q=0.8,kk;q=0.7
+
+]
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: Method: [GET]
+DEBUG: URI: [/style.css]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [localhost:8500]
+DEBUG: Connection Close: [KEEP_ALIVE]
+DEBUG: Data: [(null)]
+DEBUG: GET request: /style.css on 6
+DEBUG: Reading the file [static_site/style.css]
+DEBUG: Sending response to client 6 with status 200.
+DEBUG: Sending 471 bytes to client 6.
+DEBUG: New data from on sock 7, readret_bytes=616.
+DEBUG: Parsing request from client 7.
+DEBUG: Parsing request from client 7.
+DEBUG: going to call parse_buffer 7.
+DEBUG: parse_buffer called with buf pointing to: 0x16d8cce24
+DEBUG: Parsing buffer first 100 chars: [GET /images/liso_header.png HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+sec-ch-ua: "Not_]
+DEBUG: prefix is at: 0x0
+DEBUG: printing first 324 line 0x16d8cce24
+DEBUG: parse called with request pointing to: 0x16d8cce24
+DEBUG: Parsing request first 100 chars: [GET /images/liso_header.png HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+sec-ch-ua: "Not_]
+DEBUG: Parsing request: [GET /images/liso_header.png HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+sec-ch-ua-platform: "macOS"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:8500/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-US;q=0.9,ru;q=0.8,kk;q=0.7
+
+]
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: Method: [GET]
+DEBUG: URI: [/images/liso_header.png]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [localhost:8500]
+DEBUG: Connection Close: [KEEP_ALIVE]
+DEBUG: Data: [(null)]
+DEBUG: GET request: /images/liso_header.png on 7
+DEBUG: Reading the file [static_site/images/liso_header.png]
+DEBUG: Sending response to client 7 with status 200.
+DEBUG: Sending 181 bytes to client 7.
+DEBUG: New data from on sock 6, readret_bytes=0.
+DEBUG: Created a new state for client 6.
+DEBUG: New data from on sock 6, readret_bytes=588.
+DEBUG: Parsing request from client 6.
+DEBUG: Parsing request from client 6.
+DEBUG: going to call parse_buffer 6.
+DEBUG: parse_buffer called with buf pointing to: 0x16d8cce24
+DEBUG: Parsing buffer first 100 chars: [GET /style.css HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8]
+DEBUG: prefix is at: 0x0
+DEBUG: printing first 324 line 0x16d8cce24
+DEBUG: parse called with request pointing to: 0x16d8cce24
+DEBUG: Parsing request first 100 chars: [GET /style.css HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8]
+DEBUG: Parsing request: [GET /style.css HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+sec-ch-ua-platform: "macOS"
+Accept: text/css,*/*;q=0.1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: http://localhost:8500/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-US;q=0.9,ru;q=0.8,kk;q=0.7
+If-Modified-Since: 1316791626
+
+]
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: Method: [GET]
+DEBUG: URI: [/style.css]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [localhost:8500]
+DEBUG: Connection Close: [KEEP_ALIVE]
+DEBUG: Data: [(null)]
+DEBUG: GET request: /style.css on 6
+DEBUG: Reading the file [static_site/style.css]
+DEBUG: Sending response to client 6 with status 200.
+DEBUG: Sending 471 bytes to client 6.
+DEBUG: New data from on sock 6, readret_bytes=0.
+DEBUG: New data from on sock 7, readret_bytes=0.
+DEBUG: Created a new state for client 6.
+DEBUG: Created a new state for client 7.
+DEBUG: New data from on sock 6, readret_bytes=736.
+DEBUG: Parsing request from client 6.
+DEBUG: Parsing request from client 6.
+DEBUG: going to call parse_buffer 6.
+DEBUG: parse_buffer called with buf pointing to: 0x16d8cce24
+DEBUG: Parsing buffer first 100 chars: [GET / HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "]
+DEBUG: prefix is at: 0x0
+DEBUG: printing first 324 line 0x16d8cce24
+DEBUG: parse called with request pointing to: 0x16d8cce24
+DEBUG: Parsing request first 100 chars: [GET / HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "]
+DEBUG: Parsing request: [GET / HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-US;q=0.9,ru;q=0.8,kk;q=0.7
+If-Modified-Since: 1317239771
+
+]
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: Method: [GET]
+DEBUG: URI: [/]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [localhost:8500]
+DEBUG: Connection Close: [KEEP_ALIVE]
+DEBUG: Data: [(null)]
+DEBUG: GET request: / on 6
+DEBUG: Reading the file [static_site/index.html]
+DEBUG: Sending response to client 6 with status 200.
+DEBUG: Sending 973 bytes to client 6.
+DEBUG: New data from on sock 6, readret_bytes=616.
+DEBUG: Parsing request from client 6.
+DEBUG: Parsing request from client 6.
+DEBUG: going to call parse_buffer 6.
+DEBUG: parse_buffer called with buf pointing to: 0x16d8cce24
+DEBUG: Parsing buffer first 100 chars: [GET /images/liso_header.png HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+sec-ch-ua: "Not_]
+DEBUG: prefix is at: 0x0
+DEBUG: printing first 324 line 0x16d8cce24
+DEBUG: parse called with request pointing to: 0x16d8cce24
+DEBUG: Parsing request first 100 chars: [GET /images/liso_header.png HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+sec-ch-ua: "Not_]
+DEBUG: Parsing request: [GET /images/liso_header.png HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+sec-ch-ua-platform: "macOS"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:8500/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-US;q=0.9,ru;q=0.8,kk;q=0.7
+
+]
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: Method: [GET]
+DEBUG: URI: [/images/liso_header.png]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [localhost:8500]
+DEBUG: Connection Close: [KEEP_ALIVE]
+DEBUG: Data: [(null)]
+DEBUG: GET request: /images/liso_header.png on 6
+DEBUG: Reading the file [static_site/images/liso_header.png]
+DEBUG: Sending response to client 6 with status 200.
+DEBUG: Sending 181 bytes to client 6.
+DEBUG: New data from on sock 7, readret_bytes=588.
+DEBUG: Parsing request from client 7.
+DEBUG: Parsing request from client 7.
+DEBUG: going to call parse_buffer 7.
+DEBUG: parse_buffer called with buf pointing to: 0x16d8cce24
+DEBUG: Parsing buffer first 100 chars: [GET /style.css HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8]
+DEBUG: prefix is at: 0x0
+DEBUG: printing first 324 line 0x16d8cce24
+DEBUG: parse called with request pointing to: 0x16d8cce24
+DEBUG: Parsing request first 100 chars: [GET /style.css HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8]
+DEBUG: Parsing request: [GET /style.css HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+If-Modified-Since: 1316791626
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+sec-ch-ua-platform: "macOS"
+Accept: text/css,*/*;q=0.1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: http://localhost:8500/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-US;q=0.9,ru;q=0.8,kk;q=0.7
+
+]
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: Method: [GET]
+DEBUG: URI: [/style.css]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [localhost:8500]
+DEBUG: Connection Close: [KEEP_ALIVE]
+DEBUG: Data: [(null)]
+DEBUG: GET request: /style.css on 7
+DEBUG: Reading the file [static_site/style.css]
+DEBUG: Sending response to client 7 with status 200.
+DEBUG: Sending 471 bytes to client 7.
+DEBUG: New data from on sock 7, readret_bytes=0.
+DEBUG: New data from on sock 6, readret_bytes=0.
+DEBUG: Created a new state for client 6.
+DEBUG: New data from on sock 6, readret_bytes=605.
+DEBUG: Parsing request from client 6.
+DEBUG: Parsing request from client 6.
+DEBUG: going to call parse_buffer 6.
+DEBUG: parse_buffer called with buf pointing to: 0x16d8cce24
+DEBUG: Parsing buffer first 100 chars: [GET /favicon.ico HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v=]
+DEBUG: prefix is at: 0x0
+DEBUG: printing first 324 line 0x16d8cce24
+DEBUG: parse called with request pointing to: 0x16d8cce24
+DEBUG: Parsing request first 100 chars: [GET /favicon.ico HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v=]
+DEBUG: Parsing request: [GET /favicon.ico HTTP/1.1
+Host: localhost:8500
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+sec-ch-ua-platform: "macOS"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:8500/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,en-US;q=0.9,ru;q=0.8,kk;q=0.7
+
+]
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: called parse_method
+DEBUG: Method: [GET]
+DEBUG: URI: [/favicon.ico]
+DEBUG: HTTP Version: [HTTP/1.1]
+DEBUG: Host: [localhost:8500]
+DEBUG: Connection Close: [KEEP_ALIVE]
+DEBUG: Data: [(null)]
+DEBUG: GET request: /favicon.ico on 6
+DEBUG: Reading the file [static_site/favicon.ico]
+DEBUG: File not found: static_site/favicon.ico
+DEBUG: Sending response to client 6 with status 404.
+DEBUG: Sending 190 bytes to client 6.
+DEBUG: New data from on sock 6, readret_bytes=0.
